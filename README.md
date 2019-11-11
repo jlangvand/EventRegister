@@ -1,6 +1,6 @@
 # EventRegister
 
-University assignment.
+University project.
 
 To build, use `./gradlew jar`. The jar can be found in `build/libs/`.
 
@@ -17,5 +17,6 @@ To build, use `./gradlew jar`. The jar can be found in `build/libs/`.
 ## Quirks and limitations
 
 *   All data fields must be exactly one word.
-*   Data fields
+*   The syntax is horrible.
+*   Fields appear in semi-random order in lists, no way to override it.
 *   User input should be checked more thoroughly to be able to give more informative error message on syntax errors.
